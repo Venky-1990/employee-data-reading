@@ -1,0 +1,12 @@
+# Install pipenv
+pip install pipenv
+
+# Create virtual environment
+pipenv install
+
+# Activate
+pipenv shell
+
+# Install packages
+pipenv install requests
+
