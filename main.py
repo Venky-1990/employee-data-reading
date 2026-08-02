@@ -10,8 +10,8 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(message)s"
     )
-logging.info(f"fetching data from URL",{"https://jsonplaceholder.typicode.com/users"})
-logging.info(f"User searched: {user_id}")
+logging.info(f"Fetching data from URL: {url}")
+
 logging.info("Address displayed")
 logging.info("Program Closed")
 def fetch_user():
@@ -52,7 +52,6 @@ def get_user(users,user_id):
                 
     return
 users=fetch_user()
-print("users:", users)
 user_id=int(input("Enter user ID:"))
 get_user(users, user_id)
 continue_search = "yes"
