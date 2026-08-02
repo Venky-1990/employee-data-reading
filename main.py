@@ -8,7 +8,7 @@ cache="users.json"
 logging.basicConfig(
     filename="app.log",
     level=logging.INFO,
-    format="%(asctime)s - %(message)s"
+    format="%(asctime)s - %(levelname)s - %(message)s"
     )
 logging.info(f"Fetching data from URL: {url}")
 
@@ -52,7 +52,6 @@ def get_user(users,user_id):
                 
     return
 users=fetch_user()
-
 user_id=int(input("Enter user ID:"))
 get_user(users, user_id)
 continue_search = "yes"
