@@ -11,7 +11,7 @@ logging.basicConfig(
     format="%(asctime)s - %(message)s"
     )
 logging.info(f"fetching data from URL",{"https://jsonplaceholder.typicode.com/users"})
-logging.info(f"User searched: {user_id}")
+
 logging.info("Address displayed")
 logging.info("Program Closed")
 def fetch_user():
