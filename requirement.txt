@@ -10,3 +10,5 @@ pipenv shell
 # Install packages
 pipenv install requests
 
+#packages 
+requests==2.34.2

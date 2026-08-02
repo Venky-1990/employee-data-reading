@@ -8,7 +8,7 @@ cache="users.json"
 logging.basicConfig(
     filename="app.log",
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(message)s"
     )
 logging.info(f"Fetching data from URL: {url}")
 
